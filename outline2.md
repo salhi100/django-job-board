@@ -1,5 +1,5 @@
  
- # etapes de creation de projet Web Django
+ # etapes de creation de projet Web Django *****
 
  - frontend template   :(upload your template)
  - virtualenv :
@@ -12,8 +12,15 @@
 
 - upload project on Github
 
-
+# how django project work ***************
 - url       : path
 - view       : logic
 - models     : db data base
 - templates  : frontend
+
+
+Relations : use it in (category : in model)  : exp (every job has a category)
+
+  - One to many : [user --> posts : user has many posts] : name it = Foreginkey
+  - Many to many : [ user -- groups : in this groups there are many admins, and admins has many groups]
+  - One to one   : [user --> profile : user has one profile]
